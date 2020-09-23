@@ -1,0 +1,27 @@
+*{
+    color: white;
+}
+h2{
+    padding: 1%;
+    text-align: center;
+}
+i{
+    padding: 1%;
+    margin: 1%;
+}
+.fa-plus{
+    color:white;
+    background-color: #b030b0;
+    border-radius: 20px;
+}
+.ans{
+    display: none;
+    padding: 1%;
+    background-color: #602080;
+    border-radius:10px;
+}
+.ques{
+    padding: 1%;
+    background-color: #202060;
+    font-size: 1.5rem;
+}
