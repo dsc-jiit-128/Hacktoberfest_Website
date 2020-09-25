@@ -4,7 +4,7 @@
 
 ## Project Description
 
-A clone of Hacktober's Fest Website
+A clone of Hacktober Fest Website
 
 **TASK**
  - Beautify UI
