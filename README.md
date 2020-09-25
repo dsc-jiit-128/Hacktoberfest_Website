@@ -1,6 +1,6 @@
 # Hacktober-Fest-site
 
-<img src="https://developers.google.com/community/dsc/images/dsc_lockup.png" height="100px">
+<img src="./jiit128.png" >
 
 ## Project Description
 
