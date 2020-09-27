@@ -451,10 +451,11 @@ nav ul li a:hover {
     text-shadow: 3px 2px 10px;
 }
 
-<!-- Footer contact us  -->
+/* Footer contact us  */
  .footer{
     height: 20%;
-    background-color:#b030b0;
+    background: #010e28;
+    position: sticky;
   }
   .contact-img{
     display: inline;
@@ -539,5 +540,3 @@ nav ul li a:hover {
    .pullreq{
      color:pink;
    }
-
-   
