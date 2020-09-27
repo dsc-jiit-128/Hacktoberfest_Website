@@ -169,6 +169,7 @@ nav ul li a:hover {
     text-transform: capitalize;
     font-size: 60px;
     animation: slideRight 5s ease-in-out 1;
+    margin-bottom: -.2em;
 }
 
 .banner-underline {
@@ -182,6 +183,7 @@ nav ul li a:hover {
     text-transform: capitalize;
     font-size: 25px;
     animation: slideLeft 5s ease-in-out 1;
+    margin-top: -0.1em;
 }
 
 .banner-btn,
