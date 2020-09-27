@@ -173,12 +173,12 @@ nav ul li a:hover {
 
 .banner-underline {
     width: 200px;
-    margin: 10px auto;
+    margin: 0px auto;
     border: 3px solid #b030b0;
 }
 
 .banner-subtitle {
-    margin: 20px 0 40px 0;
+    margin: 5px 0 40px 0;
     text-transform: capitalize;
     font-size: 25px;
     animation: slideLeft 5s ease-in-out 1;
