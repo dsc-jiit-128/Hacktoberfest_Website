@@ -88,7 +88,7 @@ nav ul li a:hover {
     width: 35px;
     background-color: #b030b0;
     margin: 5px 0;
-    transition: transform 0.3s ease;
+    transition: transform 1s ease;
 }
 
 .turn .bar1 {
