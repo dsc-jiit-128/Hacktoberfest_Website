@@ -328,9 +328,6 @@ nav ul li a:hover {
      flex:0 0 calc(25% - 0.5rem) 
     }
    }
-   
-
-
 
 .card {
     display: grid;
@@ -452,11 +449,12 @@ nav ul li a:hover {
     text-shadow: 3px 2px 10px;
 }
 
-<!-- Footer contact us  -->
+/* Footer contact us  */
  .footer{
     height: 20%;
     background-color:#b030b0;
   }
+
   .contact-img{
     display: inline;
     padding-top: 3px;
@@ -466,6 +464,7 @@ nav ul li a:hover {
     margin:6px;
     animation: bttn 5s ease-in-out 1;
   }
+
   .contact-text{
     font-family: sans-serif;
     font-weight: normal;
@@ -475,7 +474,6 @@ nav ul li a:hover {
     margin:10px;
     text-align: center;
   }
-
 
   .about0,.about1,.about2,.about3{
     margin:50px 100px;
@@ -492,38 +490,36 @@ nav ul li a:hover {
      padding:50px;
      box-shadow: 20px 20px white;
      z-index:-1;
-   
    }
    
    .about0 > p{
      animation:fadeInUp;
      animation-duration:3s;
      animation-iteration-count: 1;
-     animation-delay: 0s;
-     
-     
+     animation-delay: 0s;     
    }
+
    .about1 > p{
      animation:fadeInUp;
      animation-duration:3s;
      animation-iteration-count: 1;
      animation-delay: 2s;
-     
    }
+
    .about2 > p{
      animation:fadeInUp;
      animation-duration:3s;
      animation-iteration-count: 1;
      animation-delay: 4s;
-    
    }
+
    .about3 > p{
      animation:fadeInUp;
      animation-duration:3s;
      animation-iteration-count: 1;
      animation-delay: 6s;
-     
    }
+
    .about{
      font-size:3.5em;
      color:white;
@@ -532,13 +528,12 @@ nav ul li a:hover {
      text-align:center;
      z-index: -1;
    }
+
    .about .line{
      display:inline-block;
      line-height:1em;
-     
    }
+
    .pullreq{
      color:pink;
    }
-
-   
