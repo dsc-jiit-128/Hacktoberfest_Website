@@ -4,7 +4,7 @@ $(document).ready(function() {
     $("#menu-btn").click(changeNav);
   
     function changeNav() {
-      $("#links").toggle(2000);
+      $("#links").toggle(200);
       $("#menu-btn").toggleClass("turn");
     }
   });
