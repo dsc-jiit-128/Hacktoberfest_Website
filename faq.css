@@ -25,3 +25,9 @@ i{
     background-color: #202060;
     font-size: 1.5rem;
 }
+.logo{
+    text-decoration: none;
+}
+.logo:hover{
+    cursor: pointer;
+}

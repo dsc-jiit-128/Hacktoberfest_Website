@@ -539,5 +539,9 @@ nav ul li a:hover {
    .pullreq{
      color:pink;
    }
-
-   
+   .logo{
+        text-decoration: none;
+    }
+    .logo:hover{
+        cursor: pointer;
+    }
