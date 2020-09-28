@@ -22,6 +22,7 @@ nav {
     position: fixed;
     width: 100%;
     background: #202040;
+    z-index: 1;
 }
 
 #banner {
