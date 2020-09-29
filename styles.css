@@ -353,9 +353,10 @@ nav ul li a:hover {
 
 .card-image {
     grid-area: image;
-    position: absolute;
-    right: 25%;
-    bottom: 70px;
+    position:relative;
+    top:25%;
+    bottom: 10%;
+    font-size: 7.5rem;
 }
 
 
