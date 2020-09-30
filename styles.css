@@ -163,6 +163,7 @@ nav ul li a:hover {
 #banner-box {
     color: #f5f5f5;
     text-align: center;
+    overflow: hidden;
 }
 
 #banner-title {
@@ -352,10 +353,9 @@ nav ul li a:hover {
 }
 
 .card-image {
-    grid-area: image;
-    position: absolute;
-    right: 25%;
-    bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -365,13 +365,6 @@ nav ul li a:hover {
 
 .card-stats {
     grid-area: stats;
-}
-
-.card-image {
-    grid-area: image;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    background-size: cover;
 }
 
 .card-text {
@@ -430,25 +423,23 @@ nav ul li a:hover {
 }
 
 .fab {
-    font-size: 170px;
-    position: absolute;
-    bottom: 10px;
-    right: 50%;
     text-shadow: 7px 7px 10px;
 }
 
 .fa-css3 {
-    right: 40%;
     color: rgba(0, 0, 255, 0.774);
+    transform: scale(10);
 }
 
 .fa-html5 {
     color: rgba(255, 166, 0, 0.774);
+    transform: scale(10);
 }
 
 .fa-js-square {
     color: rgba(255, 255, 0, 0.774);
     text-shadow: 3px 2px 10px;
+    transform: scale(10);
 }
 
 <!-- Footer contact us  -->
