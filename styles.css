@@ -387,7 +387,7 @@ nav ul li a:hover {
 }
 
 .card-text h2 {
-    margin-top: 0px;
+    padding: 8px 0;
     font-size: 28px;
 }
 
