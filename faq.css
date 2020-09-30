@@ -25,3 +25,7 @@ i{
     background-color: #202060;
     font-size: 1.5rem;
 }
+
+.faq-sub-heading :hover{
+    color: yellow;
+}
