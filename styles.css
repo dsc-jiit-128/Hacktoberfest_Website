@@ -163,6 +163,7 @@ nav ul li a:hover {
 #banner-box {
     color: #f5f5f5;
     text-align: center;
+    overflow: hidden;
 }
 
 #banner-title {
