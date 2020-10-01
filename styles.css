@@ -169,6 +169,7 @@ nav ul li a:hover {
     text-transform: capitalize;
     font-size: 60px;
     animation: slideRight 5s ease-in-out 1;
+    margin-bottom: -.2em;
 }
 
 .banner-underline {
@@ -182,6 +183,7 @@ nav ul li a:hover {
     text-transform: capitalize;
     font-size: 25px;
     animation: slideLeft 5s ease-in-out 1;
+    margin-top: -0.1em;
 }
 
 .banner-btn,
@@ -451,7 +453,7 @@ nav ul li a:hover {
     text-shadow: 3px 2px 10px;
 }
 
-<!-- Footer contact us  -->
+<!-- Footer contact us-->
  .footer{
     height: 20%;
     background-color:#b030b0;
