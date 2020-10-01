@@ -89,3 +89,125 @@
 
 
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <title>About Us</title>
+    <style>
+        html{
+              height: 100%;
+              overflow: hidden;
+          }
+          body{
+          background: url("./hack.png");
+          background-repeat: no-repeat;
+          background-position:fixed;
+          background-size: cover;
+  
+              margin: 0;
+              padding: 0;
+              perspective: 1px;
+              transform-style: preserve-3d;
+              height: 100%;
+              overflow-y: scroll;
+              overflow-x: hidden;
+              font-family: "LUNA";
+  
+          }
+          header{
+              box-sizing: border-box;
+              min-height: 100vh;
+          
+              transform-style: inherit;
+                width: 100vw;
+          }
+  
+      
+  
+          header, header:before{
+              background: 50% 50% / cover;
+  
+          }
+          header::before{
+         bottom: 0;
+         content: "";
+         left: 0;
+         position: absolute;
+         right: 0;  
+         top: 0;
+        display: block;
+        background-size: cover;
+        transform-origin: center center 0;
+        transform: translateZ(-1px) scale(2);
+        z-index: -1;
+        min-height: 100vh;
+  
+          }
+  
+          header *{
+              font-weight: normal;
+              text-align: center;
+              margin: 0;
+        }  
+        .sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+  
+      </style>
+</head>
+<body>
+    <header id="header">
+
+        <!-- Navbar -->
+
+        <nav class="sticky">
+          <div id="nav-top">
+            <h3>Hacktober Fest</h3>
+            <div id="menu-btn">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+          </div>
+
+          <ul id="links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="./faq.html">Faq</a></li>
+
+          </ul>
+        </nav>
+        <div class="test"></div>
+        <div class="about">
+          About Us
+        </div>
+        <div class="about0 inline-photo show-on-scroll">
+          <p>Open source is changing the world - <span class="pullreq">one pull request</span> at a time.</p>
+        </div>
+        <div class="about1 inline-photo show-on-scroll">
+          <p>Hacktoberfest is a month-long celebration of open source software in partnership with Github .</p>
+        </div>
+        <div class="about2 inline-photo show-on-scroll">
+          <p>Hacktoberfest is open to everyone in our global community. Whether you’re new to development, a student, long-time contributor, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community.
+             </p>
+        </div>
+        <div class="about3 inline-photo show-on-scroll">
+          <p>All backgrounds and skills levels are encouraged to complete the challenge.</p>
+        </div>
+</header>
+
+          
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="index.js"></script>
+</body>
+</html>
