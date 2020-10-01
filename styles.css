@@ -112,35 +112,35 @@ nav ul li a:hover {
         flex-wrap: wrap;
         padding: 0 20px;
     }
-
+    
     #menu-btn {
         display: none;
     }
-
+    
     nav ul {
         flex: 1 1 auto;
         display: flex !important;
         /*    important*/
         flex-wrap: wrap;
     }
-
+    
     nav ul li {
         flex: 1 0 125px;
     }
-
+    
     nav ul .icon {
         flex: 0 0 20px;
     }
-
+    
     nav ul a {
         text-align: center;
-
+        
     }
-
+    
     nav ul a:hover {
         padding: 10px !important;
     }
-
+    
     #nav-top {
         padding: 10px;
     }
@@ -150,8 +150,8 @@ nav ul li a:hover {
 
 #banner {
     background:
-        /* linear-gradient(rgba(32, 32, 96, 0.7), rgba(32, 32, 96, 0.7)), */
-        url("./hack.png");
+    /* linear-gradient(rgba(32, 32, 96, 0.7), rgba(32, 32, 96, 0.7)), */
+    url("./hack.png");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -202,7 +202,7 @@ nav ul li a:hover {
     cursor: pointer;
     border: 3px solid #b030b0;
     transition: background 3s ease, border 0.5s ease;
-
+    
 }
 
 #banner-box a:hover {
@@ -227,7 +227,7 @@ nav ul li a:hover {
     width: 50px;
     border: 3px solid #b030b0;
     transition: width 4s ease, border 4s ease;
-
+    
 }
 
 .title:hover .title-underline {
@@ -240,7 +240,7 @@ nav ul li a:hover {
         transform: scale(2);
         opacity: 0;
     }
-
+    
     100% {
         transform: scale(1);
         opacity: 1;
@@ -251,15 +251,15 @@ nav ul li a:hover {
     0% {
         transform: translateX(1000px);
     }
-
+    
     50% {
         transform: translateX(-200px);
     }
-
+    
     75% {
         transform: translateX(50px);
     }
-
+    
     100% {
         transform: translateX(0px);
     }
@@ -269,15 +269,15 @@ nav ul li a:hover {
     0% {
         transform: translateX(-1000px);
     }
-
+    
     50% {
         transform: translateX(200px);
     }
-
+    
     75% {
         transform: translateX(-50px);
     }
-
+    
     100% {
         transform: translateX(0px);
     }
@@ -286,50 +286,50 @@ nav ul li a:hover {
 
 /* Details */
 
-   .numbers{
+.numbers{
     padding: 3rem 0;
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./time.jpeg')center/cover no-repeat fixed;
     color: #fff;
-   }
+}
 
-   .numbers-center{
+.numbers-center{
     max-width: 95vw;
-   margin: 2rem auto;
-   }
-   .detail-number{
+    margin: 2rem auto;
+}
+.detail-number{
     text-align: center;
     margin: 2rem 0;
-   }
-   .detail-number-icon{
+}
+.detail-number-icon{
     font-size: 3rem;
-   }
-   .detail-number-text{
+}
+.detail-number-text{
     font-size: 2rem;
     letter-spacing: 0.5rem;
     margin: 0.5rem 0;
-   }
-   .detail-number-title{
+}
+.detail-number-title{
     text-transform: uppercase;
     letter-spacing: 0.25rem;
-   }
-   
-   @media screen and (min-width:576px){
+}
+
+@media screen and (min-width:576px){
     .numbers-center{
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     .detail-number{
-     flex:0 0 calc(50% - 0.5rem) 
+        flex:0 0 calc(50% - 0.5rem) 
     }
-   }
-   @media screen and (min-width:992px){
+}
+@media screen and (min-width:992px){
     
     .detail-number{
-     flex:0 0 calc(25% - 0.5rem) 
+        flex:0 0 calc(25% - 0.5rem) 
     }
-   }
-   
+}
+
 
 
 
@@ -443,12 +443,13 @@ nav ul li a:hover {
     transform: scale(10);
 }
 
-<!-- Footer contact us  -->
- .footer{
+/* Footer contact us  */
+.footer{
     height: 20%;
     background-color:#b030b0;
-  }
-  .contact-img{
+}
+
+.contact-img{
     display: inline;
     padding-top: 3px;
     padding-bottom: 6px;
@@ -456,8 +457,8 @@ nav ul li a:hover {
     width: 35px;
     margin:6px;
     animation: bttn 5s ease-in-out 1;
-  }
-  .contact-text{
+}
+.contact-text{
     font-family: sans-serif;
     font-weight: normal;
     color: white;
@@ -465,71 +466,70 @@ nav ul li a:hover {
     padding: 6px 0px 6px 0px;
     margin:10px;
     text-align: center;
-  }
+}
 
 
-  .about0,.about1,.about2,.about3{
+.about0,.about1,.about2,.about3{
     margin:50px 100px;
-     text-align:center;
-     color:white;
-     font-family: 'Roboto', sans-serif;
-     font-size:28px;
-     font-family:'Aclonica';
-     height:auto;
-     width:auto;
-     border-top-left-radius: 30px;
-     border-bottom-right-radius: 30px;
-     background-color:#b030b0;
-     padding:50px;
-     box-shadow: 20px 20px white;
-     z-index:-1;
-   
-   }
-   
-   .about0 > p{
-     animation:fadeInUp;
-     animation-duration:3s;
-     animation-iteration-count: 1;
-     animation-delay: 0s;
-     
-     
-   }
-   .about1 > p{
-     animation:fadeInUp;
-     animation-duration:3s;
-     animation-iteration-count: 1;
-     animation-delay: 2s;
-     
-   }
-   .about2 > p{
-     animation:fadeInUp;
-     animation-duration:3s;
-     animation-iteration-count: 1;
-     animation-delay: 4s;
+    text-align:center;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size:28px;
+    font-family:'Aclonica';
+    height:auto;
+    width:auto;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color:#b030b0;
+    padding:50px;
+    box-shadow: 20px 20px white;
+    z-index:-1;
     
-   }
-   .about3 > p{
-     animation:fadeInUp;
-     animation-duration:3s;
-     animation-iteration-count: 1;
-     animation-delay: 6s;
-     
-   }
-   .about{
-     font-size:3.5em;
-     color:white;
-     margin-top:150px;
-     font-weight:bold;
-     text-align:center;
-     z-index: -1;
-   }
-   .about .line{
-     display:inline-block;
-     line-height:1em;
-     
-   }
-   .pullreq{
-     color:pink;
-   }
+}
 
-   
+.about0 > p{
+    animation:fadeInUp;
+    animation-duration:3s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    
+    
+}
+.about1 > p{
+    animation:fadeInUp;
+    animation-duration:3s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    
+}
+.about2 > p{
+    animation:fadeInUp;
+    animation-duration:3s;
+    animation-iteration-count: 1;
+    animation-delay: 4s;
+    
+}
+.about3 > p{
+    animation:fadeInUp;
+    animation-duration:3s;
+    animation-iteration-count: 1;
+    animation-delay: 6s;
+    
+}
+.about{
+    font-size:3.5em;
+    color:white;
+    margin-top:150px;
+    font-weight:bold;
+    text-align:center;
+    z-index: -1;
+}
+.about .line{
+    display:inline-block;
+    line-height:1em;
+    
+}
+.pullreq{
+    color:pink;
+}
+
