@@ -175,12 +175,12 @@ nav ul li a:hover {
 
 .banner-underline {
     width: 200px;
-    margin: 10px auto;
+    margin: 0px auto;
     border: 3px solid #b030b0;
 }
 
 .banner-subtitle {
-    margin: 20px 0 40px 0;
+    margin: 5px 0 40px 0;
     text-transform: capitalize;
     font-size: 25px;
     animation: slideLeft 5s ease-in-out 1;
@@ -443,10 +443,10 @@ nav ul li a:hover {
     transform: scale(10);
 }
 
-/* <!-- Footer contact us  --> */
  .footer{
     height: 20%;
-    background-color:#b030b0;
+    background: #010e28;
+    position: sticky;
   }
   .contact-img{
     display: inline;
@@ -531,5 +531,3 @@ nav ul li a:hover {
    .pullreq{
      color:pink;
    }
-
-   
