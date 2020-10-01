@@ -1,19 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: url("./hack.png");
+    
     position: relative;
+   
 }
-
+.bg-image{
+    background: url("./hack.png");
+    filter: blur(8px)
+    -webkit-filter: blur(8px);
+}
 #header {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
+#header2 {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+   
+}
+
 
 nav {
     text-transform: uppercase;
@@ -89,7 +101,7 @@ nav ul li a:hover {
     width: 35px;
     background-color: #b030b0;
     margin: 5px 0;
-    transition: transform 0.3s ease;
+    transition: transform 1s ease;
 }
 
 .turn .bar1 {
@@ -175,12 +187,12 @@ nav ul li a:hover {
 
 .banner-underline {
     width: 200px;
-    margin: 0px auto;
+    margin: 10px auto;
     border: 3px solid #b030b0;
 }
 
 .banner-subtitle {
-    margin: 5px 0 40px 0;
+    margin: 20px 0 40px 0;
     text-transform: capitalize;
     font-size: 25px;
     animation: slideLeft 5s ease-in-out 1;
@@ -420,7 +432,7 @@ nav ul li a:hover {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Grandstander", cursive;
+    font-family: "Fjalla One";
 }
 
 .fab {
@@ -443,10 +455,10 @@ nav ul li a:hover {
     transform: scale(10);
 }
 
+/* <!-- Footer contact us  --> */
  .footer{
     height: 20%;
-    background: #010e28;
-    position: sticky;
+    background-color:#b030b0;
   }
   .contact-img{
     display: inline;
@@ -518,7 +530,7 @@ nav ul li a:hover {
    .about{
      font-size:3.5em;
      color:white;
-     margin-top:150px;
+     margin-top:50px;
      font-weight:bold;
      text-align:center;
      z-index: -1;
@@ -533,17 +545,3 @@ nav ul li a:hover {
    }
 
    
-   /* Countdown styling */
-   
-  .li-countdown {
-    display: inline-block;
-    font-size: 1.5em;
-    list-style-type: none;
-    padding: 1em;
-    text-transform: uppercase;
-  }
-  
-  .li-countdown span {
-    display: block;
-    font-size: 4.5rem;
-  }
