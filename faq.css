@@ -25,3 +25,9 @@ i{
     background-color: #202060;
     font-size: 1.5rem;
 }
+#banner-title{
+animation: tiltcard 500ms 1;
+}
+@keyframes tiltcard{
+50% {transform: rotate(20deg);}
+}
