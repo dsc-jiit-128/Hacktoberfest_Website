@@ -176,6 +176,7 @@ nav ul li a:hover {
     width: 200px;
     margin: 10px auto;
     border: 3px solid #b030b0;
+    background-color: #b030b0;
 }
 
 .banner-subtitle {
