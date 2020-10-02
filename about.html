@@ -13,10 +13,9 @@
               overflow: hidden;
           }
           body{
-          background: url("./hack.png");
-          background-repeat: no-repeat;
-          background-position:fixed;
-          background-size: cover;
+            font-family: "Roboto", sans-serif;
+        position: relative;
+        background-color: #133350;
   
               margin: 0;
               padding: 0;
@@ -25,7 +24,6 @@
               height: 100%;
               overflow-y: scroll;
               overflow-x: hidden;
-              font-family: "LUNA";
   
           }
           header{
@@ -36,28 +34,15 @@
                 width: 100vw;
           }
   
-      
-  
-          header, header:before{
-              background: 50% 50% / cover;
-  
-          }
-          header::before{
-         bottom: 0;
-         content: "";
-         left: 0;
-         position: absolute;
-         right: 0;  
-         top: 0;
-        display: block;
+          #about-us {
+        background: url(hack.png) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
-        transform-origin: center center 0;
-        transform: translateZ(-1px) scale(2);
-        z-index: -1;
-        min-height: 100vh;
-  
-          }
-  
+        padding: 20px;
+      }
+
           header *{
               font-weight: normal;
               text-align: center;
@@ -95,7 +80,8 @@
 
           </ul>
         </nav>
-        <div class="test"></div>
+        <section id="about-us">
+
         <div class="about">
           About Us
         </div>
@@ -112,6 +98,7 @@
         <div class="about3 inline-photo show-on-scroll">
           <p>All backgrounds and skills levels are encouraged to complete the challenge.</p>
         </div>
+        </section>
 </header>
 
           
