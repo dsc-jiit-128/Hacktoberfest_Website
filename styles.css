@@ -452,23 +452,27 @@ nav ul li a:hover {
   margin: 10px;
   text-align: center;
 }
+/* about css */
 
 .about0,
 .about1,
 .about2,
 .about3 {
-  margin: 50px 100px;
+  margin-top:100px;
+  margin-left:50px;
+  margin-right:50px;
+  margin-bottom:100px;
   text-align: center;
   color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 28px;
+  font-size: 22px;
   font-family: "Aclonica";
   height: auto;
   width: auto;
   border-top-left-radius: 30px;
   border-bottom-right-radius: 30px;
   background-color: #b030b0;
-  padding: 50px;
+  padding: 40px;
   box-shadow: 20px 20px white;
   z-index: -1;
 }
@@ -504,6 +508,7 @@ nav ul li a:hover {
   font-weight: bold;
   text-align: center;
   z-index: -1;
+  font-family:Aclonica;
 }
 .about .line {
   display: inline-block;
