@@ -1,163 +1,199 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    <title>Hacktober Fest</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <title>Hacktober Fest</title>
 </head>
+
 <body>
-    <header id="header">
+  <header id="header">
 
-        <!-- Navbar -->
+    <!-- Navbar -->
 
-        <nav>
-          <div id="nav-top">
-            <a href="#" style="text-decoration:none"><h3>Hacktober Fest</h3></a> 
-            
-            <div id="menu-btn">
-              <div class="bar1"></div>
-              <div class="bar2"></div>
-              <div class="bar3"></div>
+    <nav>
+      <div id="nav-top">
+        <a href="#" style="text-decoration:none">
+          <h3>Hacktober Fest</h3>
+        </a>
+
+        <div id="menu-btn">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+
+      <ul id="links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#" data-page="events">Events</a></li>
+        <li><a href="./faq.html">Faq</a></li>
+
+      </ul>
+    </nav>
+
+    <!-- Home Page banner -->
+
+    <section id="banner">
+      <div id="banner-box">
+        <div>
+          <br />
+          <br />
+          <div id="countdown">
+            <div>
+              <ul>
+                <li class="li-countdown"><span id="days"></span>days</li>
+                <li class="li-countdown"><span id="hours"></span>Hours</li>
+                <li class="li-countdown"><span id="minutes"></span>Minutes</li>
+                <li class="li-countdown"><span id="seconds"></span>Seconds</li>
+              </ul>
             </div>
           </div>
-
-          <ul id="links">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./about.html">About Us</a></li>
-            <li><a href="#">Resources</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="./faq.html">Faq</a></li>
-
-          </ul>
-        </nav>
-
-        <!-- Home Page banner -->
-
-        <section id="banner">
-          <div id="banner-box">
-            <h1 id="banner-title">Hacktober Fest 2020</h1>
-            <div class="banner-underline"></div>
-            <h3 class="banner-subtitle">
-              DSC JIIT - 128 brings you the most famous event for beginners to get started with Open Source
-            </h3>
-            <a class="banner-btn" ref="#">Explore</i></a>
+          <div id="finishmessage" style="display:none;">
+            <br />
+            <h1>It's a wrap!</h1>
+            <h2>Thank you for your participation</h2>
+            <br />
+            <br />
           </div>
-        </section>
-      </header>
-
-
-      <!-- Details  -->
-
-      <section class="numbers">
-
-        <div class="numbers-center">
-
-          <article class="detail-number">
-          <span class="detail-number-icon">
-            <i class="fas fa-comment"></i>
-          </span>
-          <h1 class="pull detail-number-text">
-           68000
-          </h1>
-          <h2 class="detail-number-title">
-           pull requests raised
-          </h2>
-         </article>
-      
-
-         <article class="detail-number">
-          <span class="detail-number-icon">
-            <i class="fas fa-check"></i>
-          </span>
-          <h1 class="comp detail-number-text">
-           42568
-          </h1>
-          <h2 class="detail-number-title">
-           challenge completions
-          </h2>
-         </article>
-      
-
-         <article class="detail-number">
-          <span class="detail-number-icon">
-           <i class="fas fa-edit"></i>
-          </span>
-          <h1 class="detail-number-text">
-           10000000+
-          </h1>
-          <h2 class="detail-number-title">
-           lines of code
-          </h2>
-         </article>
-
         </div>
-       </section>
-        <div class="container">
-            <div class="card">
-                <div class="card-image">
-                    <i class="fab fa-html5"></i>
-                </div>
-                <div class="card-text">
-                    <span class="date">Hyper Text Markup Language</span>
-                    <h2>Structure</h2>
-                    <p>All content that you see on a website is present in the html file of that website .Html is responsible for the structure and the content  </p>
-                </div>
-                <div class="card-stats">
-                    <h2>
-                        HTML5
-                    </h2>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-image">
-                    <i class="fab fa-css3"></i>
-                </div>
-                <div class="card-text">
-                    <span class="date">Cascading Style Sheet</span>
-                    <h2>Designing</h2>
-                    <p>From every Position to each color the designing of the website is done by css and its properties.</p>
-                </div>
-                <div class="card-stats">
-                    <h2>
-                        CSS3
-                    </h2>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-image">
-                    <i class="fab fa-js-square"></i>
-                </div>
-                <div class="card-text">
-                    <span class="date">Javascript </span>
-                    <h2>Brain</h2>
-                    <p>Javascript is the brain of every website it handles the dataflow like forms and inputs .Its can also be used to manipulate DOM(Document Object Model).</p>
-                </div>
-                <div class="card-stats">
-                    <h2>
-                        JAVASCRIPT
-                    </h2>
-                </div>
-            </div>
-        </div>
+        <h1 id="banner-title">Hacktober Fest 2020</h1>
+        <div class="banner-underline"></div>
+        <h3 class="banner-subtitle">
+          DSC JIIT - 128 brings you the most famous event for beginners to get started with Open Source
+        </h3>
+        <a class="banner-btn" href="/about.html">Explore</i></a>
+      </div>
+    </section>
+  </header>
 
-        <center>
-          <div class "footer">
-                  <h4 class="contact-text">CONTACT US</h4>
-                  <h4 class="contact-text">© 2020 DigitalOcean, LLC. All rights reserved</h4>
-                  <div class="contact">
-                    <a href="https://www.facebook.com/dscjiitnoida/"><img src="Facebook.svg" class="contact-img"></a>
-                    <a href="https://github.com/dsc-jiit-128"></a><img src="Github.svg" class="contact-img"></a>
-                    <a href="mailto:dscjiit128@gmail.com"></a><img src="google-plus.svg" class="contact-img"></a>
-                    <a href="https://www.instagram.com/dscj128/?hl=en"></a><img src="instagram.svg"class="contact-img"></a>
-                    <a href="https://twitter.com/Dsc128"><img src="Twitter.svg" class="contact-img"></a>
-                  </div>
-                </div>
-              </center>
-          
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="index.js"></script>
+
+  <!-- Details / Statistics  -->
+
+  <section class="page numbers" id="events">
+
+    <div class="numbers-center">
+
+      <article class="detail-number">
+        <span class="detail-number-icon">
+          <i class="fas fa-comment"></i>
+        </span>
+        <h1 class="pull detail-number-text">
+          68000
+        </h1>
+        <h2 class="detail-number-title">
+          pull requests raised
+        </h2>
+      </article>
+
+
+      <article class="detail-number">
+        <span class="detail-number-icon">
+          <i class="fas fa-check"></i>
+        </span>
+        <h1 class="comp detail-number-text">
+          42568
+        </h1>
+        <h2 class="detail-number-title">
+          challenge completions
+        </h2>
+      </article>
+
+
+      <article class="detail-number">
+        <span class="detail-number-icon">
+          <i class="fas fa-edit"></i>
+        </span>
+        <h1 class="detail-number-text">
+          10000000+
+        </h1>
+        <h2 class="detail-number-title">
+          lines of code
+        </h2>
+      </article>
+
+      <!-- Navbar -->
+
+      <nav>
+        <div id="nav-top">
+          <h3>Hacktober Fest</h3>
+          <div id="menu-btn">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+  </section>
+  <div class="container">
+    <div class="card">
+      <div class="card-image">
+        <i class="fab fa-html5"></i>
+      </div>
+      <div class="card-text">
+        <span class="date">Hyper Text Markup Language</span>
+        <h2>Structure</h2>
+        <p>All content that you see on a website is present in the html file of that website .Html is responsible for
+          the structure and the content </p>
+      </div>
+      <div class="card-stats">
+        <h2>
+          HTML5
+        </h2>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <i class="fab fa-css3"></i>
+      </div>
+      <div class="card-text">
+        <span class="date">Cascading Style Sheet</span>
+        <h2>Designing</h2>
+        <p>From every Position to each color the designing of the website is done by css and its properties.</p>
+      </div>
+      <div class="card-stats">
+        <h2>
+          CSS3
+        </h2>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image">
+        <i class="fab fa-js-square"></i>
+      </div>
+      <div class="card-text">
+        <span class="date">Javascript </span>
+        <h2>Brain</h2>
+        <p>Javascript is the brain of every website it handles the dataflow like forms and inputs .Its can also be used
+          to manipulate DOM(Document Object Model).</p>
+      </div>
+      <div class="card-stats">
+        <h2>
+          JAVASCRIPT
+        </h2>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <h4 class="contact-text">CONTACT US</h4>
+    <h4 class="contact-text">© 2020 DigitalOcean, LLC. All rights reserved</h4>
+    <div class="contact">
+      <a href="https://www.facebook.com/dscjiitnoida/"><img src="Facebook.svg" class="contact-img"></a>
+      <a href="https://github.com/dsc-jiit-128"></a><img src="Github.svg" class="contact-img"></a>
+      <a href="mailto:dscjiit128@gmail.com"></a><img src="google-plus.svg" class="contact-img"></a>
+      <a href="https://www.instagram.com/dscj128/?hl=en"></a><img src="instagram.svg" class="contact-img"></a>
+      <a href="https://twitter.com/Dsc128"><img src="Twitter.svg" class="contact-img"></a>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="index.js"></script>
 </body>
+
 </html>
+
