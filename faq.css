@@ -14,6 +14,9 @@ i{
     background-color: #b030b0;
     border-radius: 20px;
 }
+.fa-plus:hover{
+    cursor: pointer;
+}
 .ans{
     display: none;
     padding: 1%;
