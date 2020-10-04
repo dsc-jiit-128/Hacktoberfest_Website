@@ -291,13 +291,14 @@ nav ul li a:hover {
 
 .numbers {
   padding: 3rem 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("./img/time.jpeg") center/cover no-repeat fixed;
+  background: url("../img/time.jpeg") center/cover no-repeat fixed,
+  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
   color: #fff;
 }
 
 .numbers-center {
   max-width: 95vw;
+  
   margin: 2rem auto;
 }
 .detail-number {
