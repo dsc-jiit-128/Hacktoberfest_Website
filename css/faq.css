@@ -167,10 +167,10 @@ footer {
     display: inline;
     padding-top: 3px;
     padding-bottom: 6px;
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     margin: 6px;
-    animation: bttn 5s ease-in-out 1;
+    /*animation: bttn 5s ease-in-out 1;*/
   }
   .contact-text {
     font-family: sans-serif;
