@@ -111,7 +111,7 @@ nav ul li a:hover {
 @media screen and (min-width: 690px) {
   nav {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     flex-wrap: wrap;
     padding: 0 20px;
   }
