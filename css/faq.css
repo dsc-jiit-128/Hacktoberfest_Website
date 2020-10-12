@@ -500,6 +500,16 @@ i{
     color: #f5f5f5;
     text-align: center;
     overflow: hidden;
+    transition: all .3s ease;
+  }
+  #banner-box:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 100px 50px #092c4b;
+    border-radius: 20px;
+    margin-top: -40px;
+    transition: all .3s ease;
+    padding: 50px;
+    font-size: 10rem;
   }
   
   #banner-title {
