@@ -6,9 +6,8 @@
 }
 
 body {
-  padding-bottom: 20%;
   font-family: "Roboto", sans-serif;
-  background-color: #082742;
+  background: url("./hack.png");
   position: relative;
   padding-bottom: var(--footer-height);
 }
@@ -22,9 +21,8 @@ body {
 
 nav {
   text-transform: uppercase;
-  padding-bottom: 10%;
   flex: 0 0 auto;
-  padding: 2px 0;
+  padding: 10px 0;
   position: fixed;
   width: 100%;
   background: #202040;
@@ -153,8 +151,8 @@ nav ul li a:hover {
 /*###############Banner################*/
 
 #banner {
-  background-color:#082742;
-        /* linear-gradient(rgba(32, 32, 96, 0.7), rgba(32, 32, 96, 0.7)), */ /*url("./img/hack.png");*/
+  background:
+        /* linear-gradient(rgba(32, 32, 96, 0.7), rgba(32, 32, 96, 0.7)), */ url("./hack.png");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -163,9 +161,7 @@ nav ul li a:hover {
   align-items: center;
   justify-content: center;
 }
-.favicon{
-  margin-top:-30%;
-}
+
 #banner-box {
   color: #f5f5f5;
   text-align: center;
@@ -291,14 +287,13 @@ nav ul li a:hover {
 
 .numbers {
   padding: 3rem 0;
-  background: url("../img/time.jpeg") center/cover no-repeat fixed,
-  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./time.jpeg") center/cover no-repeat fixed;
   color: #fff;
 }
 
 .numbers-center {
   max-width: 95vw;
-  
   margin: 2rem auto;
 }
 .detail-number {
@@ -464,11 +459,11 @@ footer {
   display: inline;
   padding-top: 3px;
   padding-bottom: 6px;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   margin: 6px;
+  animation: bttn 5s ease-in-out 1;
 }
-
 .contact-text {
   font-family: sans-serif;
   font-weight: normal;
@@ -559,7 +554,7 @@ footer {
   font-size: 4.5rem;
 }
 #skill-lang {
-  background: url(./img/hack.png) no-repeat center center fixed;
+  background: url(hack.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
