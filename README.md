@@ -1,6 +1,6 @@
 # Hacktoberfest-Website
 
-<img src="./jiit128.png" >
+<img src="./img/jiit128.png" >
 
 # IMPORTANT INSTRUCTIONS
 1. Leave a comment under the issue, which you want to work on.
