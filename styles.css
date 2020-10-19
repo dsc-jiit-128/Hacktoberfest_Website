@@ -58,6 +58,16 @@ nav ul li a:hover {
   background: #b030b0;
 }
 
+footer {
+    clear: both;
+    position: relative;
+    background-color: black;
+    color:white;
+    width: 100%;
+    bottom: 0;
+    font-weight: 300;
+}
+
 #nav-top {
   display: flex;
   justify-content: space-between;
@@ -192,6 +202,13 @@ nav ul li a:hover {
   animation: bttn 3s ease-in-out 1;
 }
 
+.modal-footer{
+    background-color: #f9f9f9;
+}
+
+.footer{
+  position:static}
+
 #banner-box a {
   display: inline-block;
   padding: 10px;
@@ -209,6 +226,7 @@ nav ul li a:hover {
   background: transparent;
   border: 3px solid #f5f5f5;
 }
+
 
 /*title*/
 
@@ -342,11 +360,11 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.container {
+.containers {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .card-image {
@@ -441,7 +459,7 @@ nav ul li a:hover {
 footer {
   background-color: #010e28;
   position: fixed;
-  padding: 1px;
+  padding: 0px;
   width: 100%;
   left: 0px;
   bottom: 0px;
@@ -482,7 +500,7 @@ footer {
   margin-top:100px;
   margin-left:50px;
   margin-right:50px;
-  margin-bottom:100px;
+  margin-bottom:200px;
   text-align: center;
   color: white;
   font-family: "Roboto", sans-serif;
@@ -584,5 +602,3 @@ footer {
     margin-top: 70px;
   }
 }
-
-
