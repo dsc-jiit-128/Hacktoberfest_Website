@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap");
 
 :root {
-  --footer-height: 20%;
+  --footer-height: 15%;
 }
 
 body {
@@ -448,6 +448,7 @@ footer {
   height: var(--footer-height);
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
   box-sizing: initial;
+  z-index: 100;
 }
 
 .contact {
@@ -457,7 +458,6 @@ footer {
 
 .contact-img {
   display: inline;
-  padding-top: 3px;
   padding-bottom: 6px;
   height: 35px;
   width: 35px;
@@ -469,8 +469,8 @@ footer {
   font-weight: normal;
   color: white;
   font-size: 12px;
-  padding: 6px 0px 6px 0px;
-  margin: 10px;
+  padding: 0px 0px 0px 0px;
+  margin: 8px;
   text-align: center;
 }
 /* about css */
