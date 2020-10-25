@@ -439,14 +439,10 @@ nav ul li a:hover {
 
 /* Footer contact us */
 footer {
-  background-color: #010e28;
-  position: fixed;
-  padding: 1px;
   width: 100%;
   left: 0px;
   bottom: 0px;
   height: var(--footer-height);
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
   box-sizing: initial;
 }
 
@@ -459,16 +455,26 @@ footer {
   display: inline-block;
   padding-top: 3px;
   padding-bottom: 6px;
-  height: 35px;
-  width: 35x;
-  margin: 5px;
-  animation: bttn 5s ease-in-out 1;
+  height: 70px;
+  width: 70x;
+  margin: 10px;
+  animation: bttn 1.5s ease-in-out 1;
+  cursor: pointer;
+}
+.contact-img:hover {
+  display: inline-block;
+  padding-top: 3px;
+  padding-bottom: 6px;
+  height: 72px;
+  width: 72x;
+  margin: 8px;
+  animation: bttn 1.5s ease-in-out 1;
 }
 .contact-text {
-  font-family: sans-serif;
-  font-weight: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
   color: white;
-  font-size: 12px;
+  font-size: 30px;
   padding: 6px 0px 6px 0px;
   margin: 10px;
   text-align: center;
@@ -481,6 +487,7 @@ footer {
 } */
 .border{
   margin: 150px;
+  margin-bottom: 0;
   backdrop-filter: blur(2px);
 }
 
@@ -497,8 +504,8 @@ footer {
   display: inline-block;
   padding-top: 3px;
   padding-bottom: 6px;
-  height: 50px;
-  width: 50x;
+  height: 60px;
+  width: 60x;
   margin: 8px;
   animation: bttn 1.5s ease-in-out 1;
 }
