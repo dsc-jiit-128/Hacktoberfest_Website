@@ -1,17 +1,15 @@
-
-@import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
 
 :root {
   --footer-height: 20%;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  background: url("./hack.png");
+  font-family: 'Roboto', sans-serif;
+  background: url('./hack.png');
   position: relative;
   padding-bottom: var(--footer-height);
 }
-
 
 #header {
   display: flex;
@@ -152,7 +150,7 @@ nav ul li a:hover {
 
 #banner {
   background:
-        /* linear-gradient(rgba(32, 32, 96, 0.7), rgba(32, 32, 96, 0.7)), */ url("./hack.png");
+        /* linear-gradient(rgba(32, 32, 96, 0.7), rgba(32, 32, 96, 0.7)), */ url('./hack.png');
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -282,13 +280,12 @@ nav ul li a:hover {
   }
 }
 
-
 /* Details */
 
 .numbers {
   padding: 3rem 0;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("./time.jpeg") center/cover no-repeat fixed;
+    url('./time.jpeg') center/cover no-repeat fixed;
   color: #fff;
 }
 
@@ -333,7 +330,7 @@ nav ul li a:hover {
   display: grid;
   grid-template-columns: 300px;
   grid-template-rows: 210px 210px 80px;
-  grid-template-areas: "image" "text" "stats";
+  grid-template-areas: 'image' 'text' 'stats';
   position: relative;
   border-radius: 18px;
   background: whitesmoke;
@@ -414,7 +411,7 @@ nav ul li a:hover {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Grandstander", cursive;
+  font-family: 'Grandstander', cursive;
 }
 
 .fab {
@@ -479,15 +476,15 @@ footer {
 .about1,
 .about2,
 .about3 {
-  margin-top:100px;
-  margin-left:50px;
-  margin-right:50px;
-  margin-bottom:100px;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 100px;
   text-align: center;
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
-  font-family: "Aclonica";
+  font-family: 'Aclonica';
   height: auto;
   width: auto;
   border-top-left-radius: 30px;
@@ -529,7 +526,7 @@ footer {
   font-weight: bold;
   text-align: center;
   z-index: -1;
-  font-family:Aclonica;
+  font-family: Aclonica;
 }
 .about .line {
   display: inline-block;
@@ -568,9 +565,9 @@ footer {
   .about3 {
     text-align: center;
     color: white;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    font-family: "Aclonica";
+    font-family: 'Aclonica';
     height: auto;
     margin: 20px 20px;
     width: 220px;
@@ -584,5 +581,3 @@ footer {
     margin-top: 70px;
   }
 }
-
-
