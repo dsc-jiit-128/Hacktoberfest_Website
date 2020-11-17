@@ -28,3 +28,25 @@ i{
     background-color: #202060;
     font-size: 1.5rem;
 }
+.footer{
+    height: 20%;
+    background-color:#b030b0;
+  }
+  .contact-img{
+    display: inline;
+    padding-top: 3px;
+    padding-bottom: 6px;
+    height: 35px;
+    width: 35px;
+    margin:6px;
+    animation: bttn 5s ease-in-out 1;
+  }
+  .contact-text{
+    font-family: sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 12px;
+    padding: 6px 0px 6px 0px;
+    margin:10px;
+    text-align: center;
+  }
